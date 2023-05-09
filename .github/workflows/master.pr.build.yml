@@ -1,0 +1,24 @@
+name: Build on Master PR
+
+on:
+  pull_request:
+    branches:
+      - master
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.base_ref }}
+
+jobs:
+  run:
+    name: Build on Master PR
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm install
+
+      - run: npm run lint
+      - run: npm run build
+      # - run: npm test

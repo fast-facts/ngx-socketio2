@@ -1,0 +1,43 @@
+name: Publish
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    branches:
+      - master
+
+jobs:
+  run:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm install
+
+      - run: npm run lint
+      - run: npm run build
+      # - run: npm test
+
+      - uses: codfish/semantic-release-action@v1
+        with:
+          repository_url: https://github.com/${{github.REPOSITORY}}.git
+          branch: master
+          plugins: |
+            [
+              "@semantic-release/commit-analyzer",
+              "@semantic-release/release-notes-generator",
+              [
+                "@semantic-release/npm", {
+                  "pkgRoot": "dist/ngx-socketio2"
+                }
+              ],
+              "@semantic-release/github"
+            ]
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        continue-on-error: true

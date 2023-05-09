@@ -17,7 +17,7 @@ module.exports = function (config) {
     },
     coverageIstanbulReporter: {
       dir: require('path').join(__dirname, '../../coverage/ngx-socketio2'),
-      reports: ['html', 'lcovonly', 'text-summary'],
+      reports: ['html', 'lcovonly'],
       fixWebpackSourcePaths: true
     },
     reporters: ['progress', 'kjhtml'],
@@ -25,8 +25,7 @@ module.exports = function (config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['Chrome'],
-    singleRun: false,
-    restartOnFileChange: true
+    browsers: ['ChromeHeadless'],
+    singleRun: true
   });
 };

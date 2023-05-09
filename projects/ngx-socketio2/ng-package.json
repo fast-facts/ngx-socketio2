@@ -2,10 +2,7 @@
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../../dist/ngx-socketio2",
   "lib": {
-    "entryFile": "src/public-api.ts",
-    "umdModuleIds": {
-      "socket.io-client": "io"
-    }
+    "entryFile": "src/public-api.ts"
   },
   "allowedNonPeerDependencies": [
     "socket.io-client"

@@ -1,3 +1,13 @@
+This repo is solely meant for automated updates of dependencies found in HyperLife1119's [ngx-socketio2](https://github.com/HyperLife1119/ngx-socketio2) package.
+
+PRs will not be accepted for new features or bug fixes. Reach out to the original maintainer.
+
+```
+npm install ngx-socketio2-updated
+```
+
+---
+
 # ngx-socketio2
 
 A better [Socket.IO](https://socket.io) module for [Angular](https://angular.io).
@@ -19,7 +29,6 @@ A better [Socket.IO](https://socket.io) module for [Angular](https://angular.io)
 
 - [Angular](https://angular.io) >= 11.0.0
 - [Socket.IO](https://socket.io) >= 4.0.0
-
 
 ## Install
 

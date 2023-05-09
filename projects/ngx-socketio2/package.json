@@ -1,10 +1,10 @@
 {
-  "name": "ngx-socketio2",
-  "version": "2.0.1",
+  "name": "ngx-socketio2-updated",
+  "version": "0.0.0-semantic-release",
   "description": "A better Socket.IO module for Angular.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HyperLife1119/ngx-socketio2.git"
+    "url": "git+https://github.com/fast-facts/ngx-socketio2.git"
   },
   "keywords": [
     "angular",
@@ -29,14 +29,15 @@
   "author": "HyperLife1119 <hyperlife1119@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HyperLife1119/ngx-socketio2/issues"
+    "url": "https://github.com/fast-facts/ngx-socketio2/issues"
   },
-  "homepage": "https://github.com/HyperLife1119/ngx-socketio2#readme",
+  "homepage": "https://github.com/fast-facts/ngx-socketio2#readme",
   "publishConfig": {
     "access": "public"
   },
   "peerDependencies": {
-    "@angular/core": ">=11.0.0",
+    "@angular/common": "^13.0.0",
+    "@angular/core": "^13.0.0",
     "socket.io-client": "^4.0.0"
   },
   "dependencies": {
