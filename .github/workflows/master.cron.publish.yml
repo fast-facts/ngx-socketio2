@@ -22,10 +22,10 @@ jobs:
       - run: npm run build
       # - run: npm test
 
-      - uses: codfish/semantic-release-action@v1
+      - uses: codfish/semantic-release-action@v2
         with:
           repository_url: https://github.com/${{github.REPOSITORY}}.git
-          branch: master
+          branches: master
           plugins: |
             [
               "@semantic-release/commit-analyzer",
