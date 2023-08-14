@@ -12,4 +12,16 @@ updates:
       - dependencies
     ignore:
       - dependency-name: '@angular*'
-      - dependency-name: 'karma'
+    groups:
+      typescript and eslint:
+        patterns:
+          - '*typescript*'
+          - '*eslint*'
+        exclude-patterns:
+          - '*angular*'
+      karma:
+        patterns:
+          - '*karma*'
+      types:
+        patterns:
+          - '@types/*'
