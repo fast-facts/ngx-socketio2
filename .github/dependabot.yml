@@ -12,6 +12,7 @@ updates:
       - dependencies
     ignore:
       - dependency-name: '@angular*'
+      - dependency-name: 'ng-packagr'
     groups:
       typescript and eslint:
         patterns:
