@@ -1,13 +1,14 @@
 import { Inject, Injectable, OnDestroy } from '@angular/core';
 import { fromEvent, Observable } from 'rxjs';
 import { take } from 'rxjs/operators';
+import { DefaultEventsMap, EventNames, EventsMap, EventParams } from '@socket.io/component-emitter';
 import { io, Manager, Socket as _Socket } from 'socket.io-client';
 import { SocketioConfig } from './socketio.interface';
 import { SOCKETIO_CONFIG } from './socketio.token';
 
 @Injectable()
-export class Socket implements OnDestroy {
-  private socket: _Socket;
+export class Socket<ListenEvents extends EventsMap = DefaultEventsMap, EmitEvents extends EventsMap = ListenEvents> implements OnDestroy {
+  private socket: _Socket<ListenEvents, EmitEvents>;
 
   /**
    * @see {@link Socket.id}
@@ -75,7 +76,7 @@ export class Socket implements OnDestroy {
   /**
    * @see {@link Socket.emit}
    */
-  emit(eventName: string, ...args: any[]): this {
+  emit<Ev extends EventNames<EmitEvents>>(eventName: Ev, ...args: EventParams<EmitEvents, Ev>): this {
     this.socket.emit(eventName, ...args);
     return this;
   }
