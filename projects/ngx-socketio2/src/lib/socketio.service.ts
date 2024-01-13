@@ -12,7 +12,7 @@ export class Socket implements OnDestroy {
   /**
    * @see {@link Socket.id}
    */
-  get id(): string { return this.socket.id; }
+  get id(): string | undefined { return this.socket.id; }
 
   /**
    * @see {@link Socket.connected}
