@@ -14,7 +14,6 @@
       },
       "plugins": [
         "@typescript-eslint",
-        "deprecation",
         "rxjs",
         "rxjs-angular"
       ],
@@ -44,12 +43,12 @@
           "error",
           "always"
         ],
+        "@typescript-eslint/no-deprecated": "error",
         "@typescript-eslint/no-empty": "off",
         "@typescript-eslint/no-empty-function": "off",
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-unused-expressions": "off",
         "@typescript-eslint/no-unused-vars": "off",
-        "deprecation/deprecation": "error",
         "rxjs/no-nested-subscribe": "off",
         "rxjs/no-unsafe-catch": "error",
         "rxjs/no-unsafe-switchmap": "error",

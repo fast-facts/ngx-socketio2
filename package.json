@@ -39,7 +39,6 @@
     "@typescript-eslint/eslint-plugin": "^8.3.0",
     "@typescript-eslint/parser": "^8.3.0",
     "eslint": "^8.57.0",
-    "eslint-plugin-deprecation": "^3.0.0",
     "eslint-plugin-rxjs": "^5.0.3",
     "eslint-plugin-rxjs-angular": "^2.0.0",
     "jasmine-core": "^5.2.0",
