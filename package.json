@@ -38,7 +38,7 @@
     "@types/node": "^22.5.4",
     "@typescript-eslint/eslint-plugin": "^8.5.0",
     "@typescript-eslint/parser": "^8.5.0",
-    "angular-eslint": "^18.3.0",
+    "angular-eslint": "^18.3.1",
     "eslint": "^9.10.0",
     "eslint-plugin-rxjs-angular-updated": "^1.0.5",
     "eslint-plugin-rxjs-updated": "^1.0.5",
