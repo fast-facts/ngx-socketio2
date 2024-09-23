@@ -36,12 +36,12 @@
     "@angular/compiler-cli": "^18.2.5",
     "@types/jasmine": "^5.1.4",
     "@types/node": "^22.5.5",
-    "@typescript-eslint/eslint-plugin": "^8.5.0",
-    "@typescript-eslint/parser": "^8.5.0",
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
     "angular-eslint": "^18.3.1",
-    "eslint": "^9.10.0",
+    "eslint": "^9.11.0",
     "eslint-plugin-rxjs-angular-updated": "^1.0.6",
-    "eslint-plugin-rxjs-updated": "^1.0.5",
+    "eslint-plugin-rxjs-updated": "^1.0.6",
     "jasmine-core": "^5.3.0",
     "karma": "^6.4.4",
     "karma-chrome-launcher": "^3.2.0",
@@ -50,7 +50,7 @@
     "karma-jasmine-html-reporter": "^2.1.0",
     "ng-packagr": "^18.1.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.4",
-    "typescript-eslint": "^8.5.0"
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.6.0"
   }
 }
