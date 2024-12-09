@@ -20,8 +20,6 @@ updates:
         patterns:
           - '*typescript*'
           - '*eslint*'
-        exclude-patterns:
-          - '*angular*'
       karma:
         patterns:
           - '*karma*'
