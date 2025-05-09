@@ -31,7 +31,7 @@
     "@angular/compiler-cli": "^19.2.9",
     "@types/jasmine": "^5.1.8",
     "@types/node": "^22.15.16",
-    "angular-eslint": "19.3.0",
+    "angular-eslint": "19.4.0",
     "eslint": "^9.26.0",
     "eslint-config-final": "^1.5.17",
     "jasmine-core": "^5.7.1",
