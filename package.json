@@ -33,7 +33,7 @@
     "@types/node": "^22.15.17",
     "angular-eslint": "19.4.0",
     "eslint": "^9.26.0",
-    "eslint-config-final": "^1.5.17",
+    "eslint-config-final": "^1.5.18",
     "jasmine-core": "^5.7.1",
     "karma": "^6.4.4",
     "karma-chrome-launcher": "^3.2.0",
@@ -43,6 +43,6 @@
     "ng-packagr": "^19.2.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3",
-    "typescript-eslint": "8.32.0"
+    "typescript-eslint": "8.32.1"
   }
 }
