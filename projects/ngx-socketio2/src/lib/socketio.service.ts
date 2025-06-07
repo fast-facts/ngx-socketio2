@@ -1,6 +1,5 @@
 import { Inject, Injectable, OnDestroy } from '@angular/core';
-import { fromEvent, Observable } from 'rxjs';
-import { take } from 'rxjs/operators';
+import { fromEvent, Observable, take } from 'rxjs';
 import { DefaultEventsMap, EventNames, EventParams, EventsMap } from '@socket.io/component-emitter';
 import { Socket as _Socket, io, Manager } from 'socket.io-client';
 import { SocketioConfig } from './socketio.interface';

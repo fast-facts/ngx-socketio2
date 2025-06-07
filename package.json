@@ -33,7 +33,7 @@
     "@types/node": "^22.15.30",
     "angular-eslint": "19.7.1",
     "eslint": "^9.28.0",
-    "eslint-config-final": "^1.5.20",
+    "eslint-config-final": "^1.6.0",
     "jasmine-core": "^5.7.1",
     "karma": "^6.4.4",
     "karma-chrome-launcher": "^3.2.0",
