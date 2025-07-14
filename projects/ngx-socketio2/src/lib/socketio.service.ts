@@ -39,6 +39,7 @@ export class Socket<ListenEvents extends EventsMap = DefaultEventsMap, EmitEvent
   set auth(auth: _Socket['auth']) { this.socket.auth = auth; }
 
   constructor(
+    // eslint-disable-next-line @angular-eslint/prefer-inject
     @Inject(SOCKETIO_CONFIG) { url, options }: SocketioConfig
   ) {
     this.socket = io(url, options);
