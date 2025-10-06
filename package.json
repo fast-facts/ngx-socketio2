@@ -32,7 +32,7 @@
     "@types/jasmine": "^5.1.9",
     "@types/node": "^24.6.2",
     "angular-eslint": "20.3.0",
-    "eslint": "^9.36.0",
+    "eslint": "^9.37.0",
     "eslint-config-final": "^1.6.16",
     "jasmine-core": "^5.11.0",
     "karma": "^6.4.4",
