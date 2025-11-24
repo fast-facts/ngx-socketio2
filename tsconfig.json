@@ -16,10 +16,6 @@
     "useDefineForClassFields": false,
     "target": "ES2022",
     "module": "es2020",
-    "lib": [
-      "es2018",
-      "dom"
-    ],
     "paths": {
       "ngx-socketio2": [
         "dist/ngx-socketio2/ngx-socketio2",
