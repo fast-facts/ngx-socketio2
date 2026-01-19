@@ -33,7 +33,7 @@
     "@types/node": "^25.0.9",
     "eslint": "^9.39.2",
     "eslint-config-final": "^1.6.25",
-    "jasmine-core": "^5.13.0",
+    "jasmine-core": "^6.0.0",
     "karma": "^6.4.4",
     "karma-chrome-launcher": "^3.2.0",
     "karma-coverage-istanbul-reporter": "^3.0.2",
