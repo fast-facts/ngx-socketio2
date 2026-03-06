@@ -30,7 +30,7 @@
     "@angular/cli": "^21.2.0",
     "@angular/compiler-cli": "^21.2.0",
     "@types/jasmine": "^6.0.0",
-    "@types/node": "^25.3.3",
+    "@types/node": "^25.3.5",
     "eslint": "^9.39.2",
     "eslint-config-final": "^1.6.25",
     "jasmine-core": "^6.1.0",
