@@ -22,7 +22,7 @@ jobs:
       - run: npm run build
       # - run: npm test
 
-      - uses: codfish/semantic-release-action@v3
+      - uses: codfish/semantic-release-action@v5
         with:
           repository_url: https://github.com/${{github.REPOSITORY}}.git
           branches: master
