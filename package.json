@@ -34,7 +34,7 @@
     "@types/node": "^25.9.1",
     "angular-eslint": "^22.0.0",
     "eslint": "^10.4.0",
-    "eslint-config-final": "^1.7.10",
+    "eslint-config-final": "^1.7.11",
     "istanbul-lib-instrument": "^6.0.3",
     "jasmine-core": "^6.2.0",
     "karma": "^6.4.4",
