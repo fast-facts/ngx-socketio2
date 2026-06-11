@@ -42,7 +42,7 @@
             "enabled": false
         },
         {
-            "matchPackagePatterns": [
+            "matchPackageNames": [
                 "@angular*"
             ],
             "enabled": false
@@ -62,20 +62,20 @@
         },
         {
             "groupName": "typescript and eslint",
-            "matchPackagePatterns": [
+            "matchPackageNames": [
                 "*typescript*",
                 "*eslint*"
             ]
         },
         {
             "groupName": "karma",
-            "matchPackagePatterns": [
+            "matchPackageNames": [
                 "*karma*"
             ]
         },
         {
             "groupName": "types",
-            "matchPackagePatterns": [
+            "matchPackageNames": [
                 "@types/*"
             ]
         }
