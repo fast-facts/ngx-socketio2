@@ -1,9 +1,0 @@
-{
-  "include": [
-    "projects/ngx-socketio2/src/**/*.ts"
-  ],
-  "exclude": [
-    "projects/ngx-socketio2/src/test.ts",
-    "projects/ngx-socketio2/src/**/*.spec.ts"
-  ]
-}

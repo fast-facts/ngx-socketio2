@@ -9,7 +9,7 @@
             "@semantic-release/npm",
             {
                 "npmPublish": true,
-                "pkgRoot": "dist/ngx-socketio2"
+                "pkgRoot": "dist"
             }
         ],
         "@semantic-release/github"
