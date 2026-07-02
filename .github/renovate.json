@@ -46,7 +46,8 @@
         },
         {
             "matchPackageNames": [
-                "@angular*"
+                "@angular/*",
+                "@angular-devkit/*"
             ],
             "enabled": false
         },
