@@ -15,6 +15,9 @@
     "rangeStrategy": "bump",
     "automerge": true,
     "automergeType": "pr",
+    "ignorePaths": [
+        "projects/ngx-socketio2/package.json"
+    ],
     "packageRules": [
         {
             "matchManagers": [
