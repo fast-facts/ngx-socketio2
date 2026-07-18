@@ -24,10 +24,11 @@ module.exports = tseslint.config(
 
       parserOptions: {
         project: [
-          'projects/ngx-socketio2/tsconfig.lib.json',
-          'projects/ngx-socketio2/tsconfig.lib.prod.json',
-          'projects/ngx-socketio2/tsconfig.spec.json',
+          './tsconfig.lib.json',
+          './tsconfig.lib.prod.json',
+          './tsconfig.spec.json',
         ],
+        tsconfigRootDir: __dirname,
       },
     },
   },
